@@ -8,6 +8,7 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:vue/vue3-essential',
+		'@nuxtjs/eslint-config-typescript',
 	],
 	overrides: [
 		{
@@ -43,6 +44,7 @@ module.exports = {
 			exports: 'never',
 			functions: 'never',
 		}, ],
+		'no-tabs': 'off',
 		'object-curly-spacing': [ 'error', 'always', ],
 		'array-bracket-spacing': [ 'error', 'always', ],
 		'computed-property-spacing': [ 'error', 'always', ],
